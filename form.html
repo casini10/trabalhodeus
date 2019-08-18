@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo2.css">
+</head>
+<body id="for1">
+       
+   <form >
+       <fieldset>
+        Dados cadastrais:
+       <label for="nome1">Nome completo</label>
+        <input type="text" name="nome" id="nome1" required placeholder="insera seu nome completo"><br><br>
+
+        <label for="nac">Nacionalidade</label>
+        <select id="nac">
+        <option>Brasil</option>
+        <option>EUA</option>
+        <option>Japão</option>
+        <option>Alemanha</option>
+        <option>Outro(s)</option>
+        </select><br><br>
+
+        <label for="num" required >Digite seu numero</label>
+        <input type="number" id="num"><br><br>
+
+        <label for="end">Endereço</label>
+         <input type="text" id="end"><br>
+       </br></br><label>Referencia</label>
+         <textarea></textarea>
+
+        <br><br> <label for="idade">Digite sua idade:</label>
+         <input type="number"  id="idade" min="18">
+
+        <br><br> <label for="email">Digite seu email</label>
+         <input type="email" id="email">
+
+        <br><br> <p id="p1">Qual o seu sexo:</p>
+          <input type="radio" name="sexo">Masculino
+          <input type="radio"  name="sexo">Feminino
+          <input type="radio"  name="sexo">Personalizado <br><br>
+
+           <label for="doc">Documento de identificação:</label>
+           <input type="file"  id="doc" multiple>
+
+           <br><br>
+           
+           <button type="submit" onclick="enviar()">Enviar</button>
+           <button type="reset">Limpar</button>
+            
+           
+           <script>
+            function enviar(){
+             window.alert('informações enviadas')
+            }
+            </script>
+  
+
+         </fieldset>
+         </form>
+</body>
+</html>
+
+
+
+

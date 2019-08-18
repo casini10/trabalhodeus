@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+        <form >
+                <fieldset>
+                 Dados cadastrais:
+                <label for="nome1">Nome completo</label>
+                 <input type="text" name="nome" id="nome1" required placeholder="insera seu nome completo"><br><br>
+         
+                 <label for="nac">Qual a sua duvida</label>
+                 <select id="nac">
+                 <option>Entrega</option>
+                 <option>Sobre a loja</option>
+                 <option>Reclamações</option>
+                 <option>Elogios</option>
+                 <option>Trabalhe a conosco</option>
+                 </select><br><br>
+         
+                 
+                </br></br> Informações complementares:<input type="text">
+                  
+                        
+                 <br><br> <label for="email">Digite seu email:</label>
+                  <input type="email" id="email">                  
+         
+                    <br><br>
+                    
+                    <button type="submit" onclick="enviar()">Enviar</button>
+                    <button type="reset">Limpar</button>
+                    <script>
+                            function enviar(){
+                             window.alert('informações enviadas')
+                            }
+                            </script>
+                     
+</body>
+</html>

@@ -1,0 +1,115 @@
+
+menu{
+    margin-left:30%;
+    margin-right: 46%; 
+    border: 3px solid gold;
+    
+  }
+  
+  .menu ul{
+  margin:0px;
+  padding:0px;
+  border:0px;
+  background-color: black;
+  text-align:left;
+  font-size:20px;
+  
+  }
+  .menu ul li{
+    display: inline-flex;
+    
+  }
+  .menu ul li a{
+    padding: 10px 10px;
+    display: inline-flex;
+    color:white;
+    text-decoration: none;
+   
+    
+  }
+  .menu ul li a:hover{
+    color: lightgreen;
+    background-color: grey;
+    transition: background-color 1s;
+    
+  }
+  .grid-container {
+      display:grid;
+      grid-gap: 80px 80px;
+      grid-template-columns: auto auto auto;
+      background-color:white;
+      padding:5px;
+      margin-left:105px;
+    }
+    
+    .grid-item {
+      background-color:snow;
+      border: 40px solid white;
+      padding: 10px;
+      font-size: 20px;
+      text-align: center;
+      width: 50%;
+    
+    }
+    #ks{
+    height:60%;
+    width: 70%; 
+    }
+    #fot{
+      height: 70%;
+      width: 60%;
+    }
+    #apple{
+      height: 70%;
+      width: 80%;
+    }
+    #mata{
+      width: 60%;
+      height: 60%;
+    }
+    #ap{
+      width: 60%;
+      height: 60%;
+    }
+    #mac{
+      width: 90%;
+      height: 90%;
+    }
+  
+    #j{
+        height:3%;
+        width:3%;
+        margin-left: 43.5%;
+    }
+  
+    #id1{
+        border: 0.5px solid gold;
+        background-color: rgb(173, 5, 5);
+  
+    }
+  
+    #tec{
+      margin-left: 37%;
+    }
+  
+  
+   
+  
+    body{
+        border: 2px solid gold;
+    }
+  
+    #fla{
+      width: 60%;
+      height: 55%;
+    }
+  
+    #ham{
+      display: none;
+    }
+    @media only screen and (max-width:10px){
+      #ham{
+        display: inline-block;
+      }
+    }
+  

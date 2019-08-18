@@ -1,0 +1,36 @@
+#id1{
+    border: 0.5px solid gold;
+    background-color: rgb(173, 5, 5);
+
+}
+
+#tec{
+  margin-left: 37%;
+}
+
+
+
+
+body{
+    border: 2px solid gold;
+    background-image: url("product-image-944162420_300x300.jpg")
+}
+
+#fla{
+  width: 60%;
+  height: 55%;
+}
+
+#ham{
+  display: none;
+}
+@media only screen and (max-width:10px){
+  #ham{
+    display: inline-block;
+  }
+}
+
+
+form{
+    background-color:snow;
+}
